@@ -1,0 +1,2 @@
+# Newszify
+ News App
