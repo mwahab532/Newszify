@@ -7,7 +7,7 @@ import 'package:mynewsapp/models/catagoricesModel.dart';
 class NewsApiRepo {
   Future<newschannelsApisModels?> getNewsheadlines(String channelname) async {
     String apiendpoint =
-        "https://newsapi.org/v2/top-headlines?sources=$channelname&apiKey=7a950c0b07e944bb9ea8a13fe5673a90";
+        "https://newsapi.org/v2/top-headlines?sources=$channelname&apiKey=Apikey";
     try {
       final response = await http.get(Uri.parse(apiendpoint));
       if (kDebugMode) {
@@ -27,7 +27,7 @@ class NewsApiRepo {
 
   Future<CategoriesModel> FetchnewsCatagorices(String category) async {
     String apiendpoint =
-        "https://newsapi.org/v2/everything?q=$category&apiKey=7a950c0b07e944bb9ea8a13fe5673a90";
+        "https://newsapi.org/v2/everything?q=$category&apiKey=ApiKey";
     try {
       final response = await http.get(Uri.parse(apiendpoint));
       if (kDebugMode) {
