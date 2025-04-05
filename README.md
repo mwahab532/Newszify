@@ -17,4 +17,4 @@ I’d love to hear your thoughts! Drop your feedback or suggestions in the comme
 
 
 Newszify apk
-https://drive.google.com/file/d/1QStniI1EPEgj5iLt64AfzUa6480FIePd/view?usp=drive_link
+https://github.com/mwahab532/Newszify/tags
