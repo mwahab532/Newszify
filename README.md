@@ -8,6 +8,8 @@ I recently developed Newszify, a modern news app built with Flutter, designed to
  ✅ Firebase Authentication – Secure email verification for user sign-ups.
 With a clean UI and an efficient backend, Newszify delivers a fast, reliable, and user-friendly news experience. 💡📢
 I’d love to hear your thoughts! Drop your feedback or suggestions in the comments.
+Newszify apk
+https://drive.google.com/file/d/1QStniI1EPEgj5iLt64AfzUa6480FIePd/view?usp=drive_link
 
 
 ![Homescreen](https://github.com/user-attachments/assets/12f944c2-162f-4eab-89d4-12407eba496f)
