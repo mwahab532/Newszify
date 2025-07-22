@@ -4,6 +4,7 @@ import 'package:mynewsapp/Provider/faviroteprovider.dart';
 import 'package:mynewsapp/models/NewschannelsApis.dart';
 import 'package:mynewsapp/views/newsDiscription.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:share_plus/share_plus.dart';
 
 Widget buildNewsUI(BuildContext context, Articles articles, int index,
     FavoriteProvider favirote,
@@ -62,6 +63,12 @@ Widget buildNewsUI(BuildContext context, Articles articles, int index,
                 style: TextStyle(color: Colors.white),
               ),
             ),
+          ),
+            ElevatedButton(
+            child: Text("Share"),
+            onPressed: () {
+              Share.share(articles.url ?? "No URL Available");
+            },
           ),
           IconButton(
             icon: isFavorite
